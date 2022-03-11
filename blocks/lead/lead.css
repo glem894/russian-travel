@@ -1,0 +1,11 @@
+.lead {
+  display: grid;
+  grid-template-rows: max-content;
+  padding: 56px 0 0 0;
+}
+
+@media (max-width: 1279px) {
+  .lead {
+    padding-top: 48px;
+  }
+}

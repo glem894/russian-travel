@@ -1,0 +1,19 @@
+.lead__title {
+  font-family: inherit;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 32px auto;
+}
+
+@media (max-width: 767px) {
+  .lead__title {
+    padding: 0 16px;
+    font-size: 40px;
+    line-height: 44px;
+    margin-bottom: 16px;
+  }
+}
